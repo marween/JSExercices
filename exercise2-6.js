@@ -3,6 +3,7 @@ const readlineSync = require("readline-sync");
 let number = parseInt((readlineSync.question("Give me a number between 1 and 7 ? ")));
 var days = new Object();
 
+days[0] = "sorry, there are a problem"
 days[1] = "Monday";
 days[2] = "tuesday";
 days[3] = "Wednesday";

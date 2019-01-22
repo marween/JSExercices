@@ -6,7 +6,7 @@ for (var i = 1; i <= n; i++) {
 	
   let number = parseInt((readlineSync.question("Give me a number to add ")));
 
-  somme += number;
+  somme += number; //somme = somme + number
 }
 
 
