@@ -32,3 +32,5 @@ function factorial(x) {
 }
 
 console.log(factorial(choosen)); // output : 120)
+
+

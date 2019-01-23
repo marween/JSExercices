@@ -4,3 +4,12 @@ function rand10(){
 		return Math.floor((Math.random() * 10 ) +1) ;
 }
 console.log(rand10());
+
+
+
+// nouvelle facon :
+
+let rand10 = ()=>{
+	return Math.floor((Math.random() * 10 ) +1) ;
+}
+console.log(rand10());
