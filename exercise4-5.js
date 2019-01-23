@@ -22,7 +22,7 @@ function calcDistance(x1,y1,x2,y2){
      let b = y1 - y2;
     
     return Math.sqrt( a*a  + b*b );
-    // Math.hypo(x2-x1,y2-y1)
+    // Math.hypot(x2-x1,y2-y1)
 	
 }
 
