@@ -14,6 +14,7 @@ TV serie object and display it to the user in JSON format.
 
 // essaie de la nouvelle façon :
 
+
 const readlineSync = require("readline-sync");
 
 let myObject = {
@@ -37,7 +38,9 @@ let askTvSerie = ()=>{
 	return myObject;
 };
 
-
+var data = JSON.stringify(myObject); //transformer les objects en string
+var fs = require('fs');			// 
+fs.writeFileSync("file.json", data); //recreer en JSON 
 
 console.log(askTvSerie(myObject));
 
