@@ -22,7 +22,7 @@ let myObject = {
 		acteur:[]
 	}
 
-let askTvSerie = (myObject)=>{
+let askTvSerie = ()=>{
 	let a = "";	
 	myObject.serie = readlineSync.question("quelle est ta série préférée? ");
 	myObject.production = readlineSync.question("quelle est son année de production ? ");
@@ -36,6 +36,9 @@ let askTvSerie = (myObject)=>{
 	console.log(a);
 	return myObject;
 };
+
+
+
 console.log(askTvSerie(myObject));
 
 
