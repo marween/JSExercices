@@ -32,8 +32,8 @@ class Rectangle {
 	   // et une taille comprise entre 0 et 20
 		this.topLeftXPos = rand(1000);
 		this.topLeftYPos = rand(1000);
-		this.width = rand(20);
-		this.lenght = rand (20);
+		this.width = rand(800);
+		this.lenght = rand (800);
 	}
 }
 // générer n rectangles avec des positions au hasard 
@@ -58,14 +58,12 @@ for( let i =0 ; i< 3; i++){
 // il faut qu'ils ne se tapent pas les uns les autres
 
 
+for (let i =0 ; i < a.length; i++){
 
+	for (let j = i+1 ; j< a.length; j++) {
 
-for (rectangles of a ){
-
-	for (otherRectangles of a) {
-
-		if (rectangles !== otherRectangles) {
-				console.log(rectangles.collides(otherRectangles))
+		if (a[i] !== a[j]) {
+				console.log(a[i].collides(a[j]))
 		}
 	}
 	
