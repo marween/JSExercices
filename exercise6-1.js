@@ -17,7 +17,7 @@ class Circle {
 	this.yPos= yOffset;
 }
 
-// le manager ..............;
+
 	surface(){
 		return (this.radius*this.radius)*Math.PI;
 	}
@@ -26,7 +26,9 @@ class Circle {
 
 
 let circ1 = new Circle(7,2,9);
+
 console.log(circ1.xPos,circ1.yPos,circ1.radius);
 console.log(circ1.surface());
+
 circ1.move(7,3);
 console.log(circ1.xPos,circ1.yPos,circ1.radius);
