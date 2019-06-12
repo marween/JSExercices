@@ -33,7 +33,8 @@ let askTvSerie = ()=>{
 	};
 
 	let randomizeCast = (tvSerie)=>{
-
+		let i = 0 ;
+		let j = 0 ;
 		for (let elem in tvSerie.acteur) {
 			
 			i=tvSerie.acteur.length-1;
